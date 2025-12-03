@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: shimi1717/devops-app:latest
+          image: shimi1717/devops-app:DUMMY
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
